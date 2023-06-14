@@ -1,6 +1,3 @@
-# ler arquivos vários arquivos csv do dbfs com spark
-# Lendo todos os arquivos .csv do diretório bigdata (>4GB)
-
 from os.path import abspath
 from pyspark.sql import SparkSession
 from pyspark.sql.functions import *
